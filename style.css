@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+
+.sidebar {
+    width: 180px;
+    height: 100%;
+    background-color: #293550;
+    color: #9ca3af;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
