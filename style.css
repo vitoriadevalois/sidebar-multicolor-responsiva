@@ -1,13 +1,114 @@
 * {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    height: 100%;
 }
 
 .sidebar {
-    width: 180px;
-    height: 100%;
+    width: 205px;
+    min-height: 100%;
     background-color: #293550;
     color: #9ca3af;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.sidebar-top,
+.sidebar-center,
+.sidebar-bottom {
+    width: 80%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #4b4b4b;
+}
+
+.sidebar-bottom {
+    border: none;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.logo {
+    font-style: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.brand {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.list-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    /* background-color: red; para ver o container*/  
+}
+
+.list-item-icon {
+    width: 30px;
+    font-style: 20px;
+}
+
+.list-item:hover,
+.list-item.active {
+    background-color: #374151;
+    color: white;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(228, 194, 194);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.dark {
+    background-color: #14161a;
+}
+
+.night {
+    background-color: #312e81;
+}
+
+.light {
+    background-color: #f3f4f6;
+}
+
+.rose {
+    background-color: #f16ebf;
+}
+
+@media only screen and (max-width: 768px){
+    .sidebar {
+        width: 50px;
+    }
+    .brand,.list-item-text {
+        display: none;
+    }
+    .sidebar-bottom {
+        flex-direction: column;
+    }
+    .color-box {
+        margin-bottom: 10px;
+    }
 }
