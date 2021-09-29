@@ -31,7 +31,6 @@ html {
 .sidebar-bottom {
     border: none;
     justify-content: center;
-    background-color: yellow;
 }
 
 .logo {
@@ -95,7 +94,7 @@ html {
 }
 
 .rose {
-    background-color: #f16ebf;
+    background-color: #f591ce;
 }
 
 @media only screen and (max-width: 768px){
@@ -112,4 +111,33 @@ html {
         margin-bottom: 10px;
         margin-right: 0px;
     }
+}
+
+.sidebar.night {
+    background-color: #312e81;
+    color: #b4bbc7;   
+}
+
+.list-item.active.night {
+    background-color: #4338ca;
+}
+
+.sidebar.light {
+    background-color: #f3f4f6;
+    color: #111827;   
+}
+
+.list-item.active.light {
+    background-color: #d1d5db;
+    color: #111827;
+}
+
+.sidebar.rose {
+    background-color: #f591ce;
+    color: #f3f4f6;   
+}
+
+.list-item.active.rose {
+    background-color: #f591ce;
+    color: #f3f4f6;
 }
