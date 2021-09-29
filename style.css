@@ -134,10 +134,10 @@ html {
 
 .sidebar.rose {
     background-color: #f591ce;
-    color: #f3f4f6;   
+    color: #000000;   
 }
 
 .list-item.active.rose {
     background-color: #f591ce;
-    color: #f3f4f6;
+    color: #000000;
 }
